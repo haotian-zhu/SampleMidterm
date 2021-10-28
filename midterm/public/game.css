@@ -1,0 +1,108 @@
+h1 {
+    text-align: center;
+    color: white;
+    
+  }
+button{
+    margin:auto;
+    display: grid;   
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: #f86565;
+    padding: 3px;
+}
+input {
+    margin:auto;
+    width: 25%;
+    display: grid;   
+    text-align: center;
+    background-color: rgb(46, 58, 3);
+    color: white;
+    size: 30;
+    padding: 12px;
+  }
+  label {
+    margin:auto;
+    width: 75%;
+    display: grid;   
+    text-align: center;
+    
+    color: white;
+    size: 40;
+    padding: 8px;
+  }
+  .gamePage .welcome {
+    margin:auto;
+    width: 75%;
+    display: grid;   
+    text-align: center;
+    color: rgb(252, 246, 246);
+    size: 40;
+    padding: 6px;
+    font:large;
+  }
+  .gamePage .hint {
+    margin:auto;
+    width: 75%;
+    display: grid;   
+    text-align: center;
+    color: rgb(253, 251, 251);
+    size: 40;
+    padding: 20px;
+    font-size: x-large;
+  }
+  .gamePage .words {
+    margin:auto;
+    width: 50%;
+    font-size: x-large;
+    display: grid;   
+    text-align: center;
+    background-color: whitesmoke;
+    color: green;
+    size: 30;
+    padding: 15px;
+  }
+  .gamePage .guessHistory {
+    margin:auto;
+    width: 25%;
+    font-size: large;
+    display: grid;   
+    text-align: center;
+    background-color: rgb(54, 6, 6);
+    color: whitesmoke;
+    size: 30;
+    padding: 8px;
+  }
+  .gamePage .logoutB{
+    margin:auto;
+    display: grid;   
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: #035c0f;
+    padding: 3px;
+  }
+  body {
+    background: url(pic3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+  .loginPage.active .login {
+    display: block;
+  }
+
+  .loginPage .login {
+    display: none;
+  }
+
+  .gamePage.active .game {
+    display: block;
+  }
+
+  .gamePage .game {
+    display: none;
+  }
